@@ -26,11 +26,11 @@ jobs:
       USER3: ${{ secrets.USER3 }}            # 用户3
       PASS3: ${{ secrets.PASS3 }}            # 密码3
       USER4: ${{ secrets.USER4 }}            # 用户4
-      PASS4: ${{ secrets.PASS4 }}
-      USER5: ${{ secrets.USER5 }}            # 用户4
-      PASS5: ${{ secrets.PASS5 }}
-      USER6: ${{ secrets.USER6 }}            # 用户4
-      PASS6: ${{ secrets.PASS6 }}
+      PASS4: ${{ secrets.PASS4 }}            # 密码4
+      USER5: ${{ secrets.USER5 }}            # 用户5
+      PASS5: ${{ secrets.PASS5 }}            # 密码5
+      USER6: ${{ secrets.USER6 }}            # 用户6
+      PASS6: ${{ secrets.PASS6 }}            # 密码3
       # 可以继续扩展更多用户和密码
     steps:
       - name: Checkout code
